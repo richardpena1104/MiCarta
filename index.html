@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> PARRILLADA </title>
+        <title>PARRILLADA</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -220,13 +220,13 @@
 
 
     </head>
-    <body ng-app='app' style="background-color: #ffffff;" ng-controller='ctrMan' ng-cloack>
+    <body ng-app='app' style="background-color: #ebebeb;" ng-controller='ctrMan' ng-cloack>
 
         <div id="loader"></div>
         <div id="ctnMan" style="visibility: hidden;">
             <div class="w3-row {{clt}} fxd" >
                 <div class="w3-col w3-left w3-container bar-height" style="width:80px">
-                    <!--<img id="lg" src="logo.png" class="w3-round bar-logo" alt="">-->
+                    <img id="lg" src="logo.png" class="w3-round bar-logo" alt="">
                 </div>
                 <div class="w3-col w3-left w3-container bar-height bar-neg">
                     <h4 id="labNeg"  class="w3-merriweather" style="font-weight: bold; line-height: 22px;margin: 5px 0px; line-height: 25px; visibility: hidden;" ng-model="ngc">{{ngc}}</h4>
@@ -325,8 +325,7 @@
             </div>
 
             <br><br><br>
-           <!-- Quita el pie de pagina
-			 <footer class="w3-container w3-padding-32 spc50 {{clt}}">
+            <footer class="w3-container w3-padding-32 spc50 {{clt}}">
                 <div class="w3-row-padding w3-center">
                     <div class="{{ txtInf==null||txtInf==''?'':'w3-half' }}" ng-hide="txtTel==null||txtTel==''?true:false">
                         <div class="w3-container" id="contact">
@@ -343,7 +342,7 @@
 
                 </div>
                 <div style="height:90px" ng-hide="!wat"></div>
-            </footer> -->
+            </footer>
             <a ng-hide="!wat" href="https://api.whatsapp.com/send?phone={{txtTel}}" class="btnWhts" target="_blank">
                 <i class="fa fa-whatsapp w3-xxxlarge"></i>
             </a>
@@ -823,7 +822,7 @@
 			function ajIm(el){
 				el.style.marginTop = ((260-el.offsetHeight)/2)+"px";
 			}
-			var data = /*#d4t4#*/ {"itm":[{"c":0,"d":"CARNE ASADA","i":1,"k":"Sin Clave","l":"null","p":"$7.000,00","u":1,"v":7000,"z":10},{"c":0,"d":"CARNE PICADA","i":2,"k":"Sin Clave","l":"null","p":"$10.000,00","u":1,"v":10000,"z":10}],"ctg":[{"i":0,"n":"Todos"}],"und":[{"i":1,"n":"G"}],"ngc":"🔥 PARRILLADA 🔥","tel2":"+573028552284","cor2":"parrillada@petalmail.com","dir2":"Cll 34 N° 11 - 05 Centro","alf":"Alfabeto","myp":"Mayor Precio","mnp":"Menor Precio","ctgs":"Categoría","orp":"Ordenar Por","bsc":"Buscar","crt":true,"nam":"Nombre","sct":"Comprar Ahora","ernw":"Error al conectarse al servidor, compruebe su conexión a internet e intente nuevamente.","img":false,"uni":true,"cla":true,"wha":true,"clo":"Cerrar","nxt":"Siguiente","prv":"Anterior","sin":"Sin Información","clt":"w3-red","tmp":1661548132535,"lg":"logo"} /*#d4t4#*/;
+			var data = /*#d4t4#*/ {"itm":[{"c":0,"d":"MANZANA","i":1,"k":"123","l":"img_1","p":"$6.000,00","u":1,"v":6000,"z":10},{"c":0,"d":"PERA VERDE","i":2,"k":"1235","l":"img_2","p":"$5.500,00","u":1,"v":5500,"z":10}],"ctg":[{"i":0,"n":"Todos"}],"und":[{"i":1,"n":"UNI"}],"ngc":"PARRILLADA","tel2":"+573028552284","cor2":"parrillada@petalmail.com","dir2":"Cll 34 N° 11 - 05 Centro","alf":"Alfabeto","myp":"Mayor Precio","mnp":"Menor Precio","ctgs":"Categoría","orp":"Ordenar Por","bsc":"Buscar","crt":true,"nam":"Nombre","sct":"Comprar Ahora","ernw":"Error al conectarse al servidor, compruebe su conexión a internet e intente nuevamente.","img":true,"uni":true,"cla":true,"wha":true,"clo":"Cerrar","nxt":"Siguiente","prv":"Anterior","sin":"Sin Información","clt":"w3-black","tmp":1662721262197,"lg":"logo"} /*#d4t4#*/;
 		</script>
     </body>
 </html>
